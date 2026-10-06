@@ -1,7 +1,10 @@
 #include<stdio.h>
 int main(){
  
-    printf("my first program in c");
+  int n;
+  printf("enter number:");
+  scanf("%d" , & n);
+  printf("%d" , n*n);
 
     return 0;
 }
