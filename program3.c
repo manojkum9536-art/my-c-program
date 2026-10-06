@@ -1,18 +1,14 @@
 #include<stdio.h>
-int main(){
+   int maiin(){
+     for(int i=1; i<=5; i++) {
+      if(i == 3){
+        continue;
+      }
 
-int n;
-do{
-    printf("enter number:");
-    scanf("%d", &n);
-    printf("%d\n" , n);
-    
-    if(n % 7 == 0) {
-        break;
-    }
-}    while(1);
+        printf("%d\n", i);
+     }
 
-printf("thank you");
+
 
 
 
