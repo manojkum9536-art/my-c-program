@@ -13,7 +13,7 @@ int main()
     printf("child");
  }else 
  {
-    printf("not valid age in human");
+    printf("not valid age in human ");
  }
  return 0;
 }
