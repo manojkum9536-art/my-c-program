@@ -1,1 +1,7 @@
+# VS code temporary files
+tempCodeRunnerFiles.c
+
+#compiled / Binary files
 *.exe
+*.o
+*.out
