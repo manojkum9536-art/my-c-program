@@ -1,19 +1,21 @@
 #include<stdio.h>
+
+
+int fact(int n);
 int main()
 {
-   int age;
-   printf("enter age");
- scanf("%d", &age);
- 
- if(age>=18 && age<=100){
-    printf("adulat");
- }else if(age>13 && age<18){
-    printf("taneger");
- } else if(age<=13 && age>=1){
-    printf("child");
- }else 
- {
-    printf("not valid age in human");
- }
- return 0;
+    printf("factorial is: %d", fact(5));
+  
+    return 0;
+}
+int fact(int n){
+    if(n== 0){
+        return 1;
+    }
+
+
+
+    int factNm1 = fact(n-1);
+    int factN = factNm1 * n;
+    return factN;
 }
