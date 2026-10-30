@@ -1,72 +1,21 @@
 #include<stdio.h>
 
-int main(){
-int months ;
-printf("enter months:");
-scanf("%d",& months);
 
-switch(months){
-
-    case 1:
-    printf("january");
-    break;
-    
-     case 2:
-    printf("february");
-    break; 
-    
-    case 3:
-    printf("march");
-    break;
-
-     case 4:
-    printf("april");
-    break;
-
-     case 5:
-    printf("may");
-    break;
-
-
-     case 6:
-    printf("june");
-    break;
-
-
-     case 7:
-    printf("july");
-    break;
-
-
-     case 8:
-    printf("august");
-    break;
-
-
-
-     case 9:
-    printf("september");
-    break;
-
-
-     case 10:
-    printf("october");
-    break;
-
-
-     case 11:
-    printf("november");
-    break;
-
-
-     case 12:
-    printf("december");
-    break;
-
-default:
-printf("Invalid month dala hai user ne ok");
-
+int fact(int n);
+int main()
+{
+    printf("factorial is: %d", fact(5));
+  
+    return 0;
 }
-     return 0;
-}
+int fact(int n){
+    if(n== 0){
+        return 1;
+    }
 
+
+
+    int factNm1 =  fact(n-1);
+    int factN = factNm1 * n;
+    return factN;
+}

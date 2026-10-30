@@ -3,5 +3,5 @@ tempCodeRunnerFiles.c
 
 #compiled / Binary files
 *.exe
-*.o
 *.out
+*.obj
