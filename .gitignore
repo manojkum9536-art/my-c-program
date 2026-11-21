@@ -2,6 +2,7 @@
 tempCodeRunnerFiles.c
 
 #compiled / Binary files
-*.exe
-*.out
-*.obj
+ *.exe
+ *.out
+ *.obj
+project1/
